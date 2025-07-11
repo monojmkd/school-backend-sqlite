@@ -1,0 +1,38 @@
+{
+  "teachers": [
+    { "name": "Mrs. Sharma", "email": "sharma@example.com" },
+    { "name": "Mr. Verma", "email": "verma@example.com" }
+  ],
+
+  "classrooms": [
+    { "name": "Physics", "teacherId": 1 },
+    { "name": "Mathematics", "teacherId": 2 }
+  ],
+
+  "studentData": [
+    {
+      "name": "Anjali Gupta",
+      "email": "anjali@example.com",
+      "age": 19,
+      "classroomId": 1
+    },
+    {
+      "name": "Neha Bansal",
+      "email": "neha@example.com",
+      "age": 20,
+      "classroomId": 2
+    },
+    {
+      "name": "Rahul Mehta",
+      "email": "rahul@example.com",
+      "age": 21,
+      "classroomId": 1
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravi@example.com",
+      "age": 22,
+      "classroomId": 2
+    }
+  ]
+}
