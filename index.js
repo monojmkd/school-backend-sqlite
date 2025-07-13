@@ -27,6 +27,7 @@ app.get("/seed_db", async (req, res) => {
 
 app.use("/teachers", require("./routes/teacher"));
 app.use("/classrooms", require("./routes/classroom"));
+app.use("/students", require("./routes/student"));
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
