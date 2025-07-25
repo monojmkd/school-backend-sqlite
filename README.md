@@ -71,6 +71,8 @@ A robust RESTful API for managing **students**, **teachers**, and **classrooms**
 |            | DELETE | `/students/:id`         | Delete a student by ID          |
 | Seed       | GET    | `/seed_db`              | Seed DB with demo data          |
 
+### Data
+- A sample json data is provided to test the endpoints.
 ### Relationships
 
 - **Each student** belongs to a classroom.
